@@ -22,3 +22,12 @@ There is a **Windows EXE** in releases:
 [https://github.com/ViciousSquid/ShowTime/releases]
 
 Otherwise, Execute ShowTime.py with python (prerequisite of pygame 1.9.6+ is required)
+
+Start/Stop - to Start and stop the countdown
+Reset - to reset the countdown to the default (30 minutes)
++15sec/+15min - to increase the timer by that amount
+
+Timer turns YELLOW when ther are only 5 minutes remaining
+Timer turns RED and continues counting up when time has expired
+
+TODO: Handle exception when quitting the app
