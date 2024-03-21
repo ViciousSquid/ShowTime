@@ -5,7 +5,7 @@ Time management for live performance slots.
 
 ![image](https://github.com/ViciousSquid/ShowTime/assets/161540961/c0909c88-3526-4666-abe6-42440ffcb449)
 
-No longer will you be asked the question "How much time do we have left?" or "Can we do an encore?" :-p
+Put this on th stage... No longer will you be asked the question "How much time do we have left?" or "Can we do an encore?" :-p
 
 ShowTime will help guilt-trip your live performers into finishing ON TIME!
 
