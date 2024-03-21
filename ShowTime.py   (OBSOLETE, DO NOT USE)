@@ -1,8 +1,13 @@
-#
-# THIS WAS ORIGINALLY THE MASTER FILE
-# IT WAS SPLIT INTO MULTIPLE FILES FOR VERSION 1.1
-# AND THIS MASTER FILE IS NOW OBSOLETE
-#
+######################################################
+#  THIS WAS ORIGINALLY THE MASTER FILE
+#  IT WAS SPLIT INTO MULTIPLE FILES FOR VERSION 1.1
+#  AND THIS MASTER FILE IS NOW OBSOLETE
+# 
+#  Unexpected things may have happened during the split
+#  So this is here 'just in case' of serious bugs.
+#  Use is highly discouraged
+#  
+######################################################
 
 
 print("*** Showtime Starting up...")
