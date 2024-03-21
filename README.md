@@ -34,3 +34,8 @@ Timer turns RED and continues counting up when time has expired
 Clicking the small button in the top left labelled 'Remote' will start a web server at localhost:8000
 
 (This is currently very basic - Refreshing of the page is necessary to update the timer)
+
+
+------------------
+
+TO DO:  Split the master file into multiple python files for easier readability 
