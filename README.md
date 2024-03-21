@@ -24,18 +24,34 @@ There is a **Windows EXE** in releases:
 
 Otherwise, Execute ShowTime.py with python (prerequisite of pygame 1.9.6+ is required)
 
-Start/Stop - to Start and stop the countdown
-Reset - to reset the countdown to the default (30 minutes)
-+15sec/+15min - to increase the timer by that amount
+![image](https://github.com/ViciousSquid/ShowTime/assets/161540961/ee8c41b8-c282-4c12-b866-5e643f775301) - to Start and stop the countdown
 
-Timer turns YELLOW when ther are only 5 minutes remaining
+![image](https://github.com/ViciousSquid/ShowTime/assets/161540961/37bced85-cdf4-4a85-9a29-4d28c4f587d6) - to reset the countdown to the default (15 minutes)
+
+![image](https://github.com/ViciousSquid/ShowTime/assets/161540961/c9c516cd-a5f0-4318-90ec-7161fa69562a) - to increase the timer by 15 minutes
+
+![image](https://github.com/ViciousSquid/ShowTime/assets/161540961/fe53bc4f-3575-4fe6-8f10-d1906caf48a4) - to increase the timer by 15 seconds
+
+
+--
+
+Timer turns YELLOW when there are only 5 minutes remaining
+
 Timer turns RED and continues counting up when time has expired
 
-Clicking the small button in the top left labelled 'Remote' will start a web server at localhost:8000
+--
+
+
+Clicking the small button in the top left labelled 'Remote' will start/stop a web server at localhost:8000
+
+![image](https://github.com/ViciousSquid/ShowTime/assets/161540961/453289ea-edec-48a1-b6fa-597e818fd6e1)
+
 
 (This is currently very basic - Refreshing of the page is necessary to update the timer)
 
 
+
 ------------------
+
 
 TO DO:  Split the master file into multiple python files for easier readability 
