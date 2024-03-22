@@ -46,5 +46,7 @@ Clicking the small button in the top left labelled 'Remote' will start/stop a we
 
 ![image](https://github.com/ViciousSquid/ShowTime/assets/161540961/453289ea-edec-48a1-b6fa-597e818fd6e1)
 
+Connect to [IP ADDRESS:8000] with a web browser to view the timer value
+
 
 (This is currently very basic - Refreshing of the page is necessary to update the timer)
