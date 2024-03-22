@@ -48,10 +48,3 @@ Clicking the small button in the top left labelled 'Remote' will start/stop a we
 
 
 (This is currently very basic - Refreshing of the page is necessary to update the timer)
-
-
-
-------------------
-
-
-TO DO:  Split the master file into multiple python files for easier readability 
