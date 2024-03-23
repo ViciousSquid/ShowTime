@@ -18,10 +18,11 @@ class UI:
     def update_button_positions(self):
         window_width, window_height = self.window.get_size()
         button_y = window_height - BUTTON_HEIGHT - 20
-        self.start_stop_button_rect = pygame.Rect(20, button_y, BUTTON_WIDTH, BUTTON_HEIGHT)
-        self.reset_button_rect = pygame.Rect(window_width // 4 - BUTTON_WIDTH // 2, button_y, BUTTON_WIDTH, BUTTON_HEIGHT)
-        self.add_15_min_button_rect = pygame.Rect(window_width // 2 - BUTTON_WIDTH // 2, button_y, BUTTON_WIDTH, BUTTON_HEIGHT)
-        self.add_15_sec_button_rect = pygame.Rect(3 * window_width // 4 - BUTTON_WIDTH // 2, button_y, BUTTON_WIDTH, BUTTON_HEIGHT)
+        button_width = (window_width - 3 * BUTTON_SPACING) // 4
+        self.start_stop_button_rect = pygame.Rect((window_width - 4 * button_width - 3 * BUTTON_SPACING) // 2, button_y, button_width, BUTTON_HEIGHT)
+        self.reset_button_rect = pygame.Rect(self.start_stop_button_rect.right + BUTTON_SPACING, button_y, button_width, BUTTON_HEIGHT)
+        self.add_15_min_button_rect = pygame.Rect(self.reset_button_rect.right + BUTTON_SPACING, button_y, button_width, BUTTON_HEIGHT)
+        self.add_15_sec_button_rect = pygame.Rect(self.add_15_min_button_rect.right + BUTTON_SPACING, button_y, button_width, BUTTON_HEIGHT)
 
     def handle_mouse_event(self, pos):
         if self.start_stop_button_rect.collidepoint(pos):
@@ -57,7 +58,8 @@ class UI:
         text_surface.fill((0, 0, 0, 0))
         text_surface.blit(text_minutes, (0, 0))
         text_surface.blit(text_seconds, (text_minutes.get_width() + 20, 20))
-        text_rect = text_surface.get_rect(center=(WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2))
+        window_width, window_height = self.window.get_size()
+        text_rect = text_surface.get_rect(center=(window_width // 2, window_height // 2))
         self.window.blit(text_surface, text_rect)
 
     def get_text_colour(self):
