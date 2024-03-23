@@ -49,4 +49,5 @@ Clicking the small button in the top left labelled 'Remote' will start/stop a we
 Connect to [IP ADDRESS:8000] with a web browser to view the timer value
 
 
-(This is currently very basic - Refreshing of the page is necessary to update the timer)
+Error handling is not implemented yet:
+If port 8000 is already in use for whatever reason, the app will crash.
