@@ -3,6 +3,8 @@
 A useful tool for audio engineers/stage managers.
 Time management for live performance slots. 
 
+(or if you just need to monitor a timer over a LAN)
+
 ![image](https://github.com/ViciousSquid/ShowTime/assets/161540961/c0909c88-3526-4666-abe6-42440ffcb449)
 
 No longer will you be asked the question "How much time do we have left?" or "Can we do an encore?" :-p
