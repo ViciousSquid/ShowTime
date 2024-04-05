@@ -1,0 +1,38 @@
+{
+    "project": "ShowTime",
+    "window": {
+      "width": 1024,
+      "height": 600
+    },
+    "countdown": {
+      "initial": 900
+    },
+    "colors": {
+      "black": [0, 0, 0],
+      "green": [0, 255, 0],
+      "green2": [147, 197, 114],
+      "red": [255, 0, 0],
+      "white": [255, 255, 255],
+      "yellow": [255, 191, 0],
+      "grey": [40, 40, 43]
+    },
+    "button": {
+      "width": 160,
+      "height": 50,
+      "spacing": 20
+    },
+    "checkbox": {
+      "width": 20,
+      "height": 20
+    },
+    "timers": [
+      {
+        "name": "Act #1",
+        "length": 900
+      },
+      {
+        "name": "Act #2",
+        "length": 1200
+      }
+    ]
+  }

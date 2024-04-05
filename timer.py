@@ -2,8 +2,9 @@ import pygame
 from constants import *
 
 class Timer:
-    def __init__(self, initial_countdown):
+    def __init__(self, initial_countdown, name):
         self.initial_countdown = initial_countdown
+        self.name = name
         self.reset()
 
     def reset(self):

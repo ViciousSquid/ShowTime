@@ -12,8 +12,8 @@ window = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT), pygame.RESIZABLE
 pygame.display.set_caption("ShowTime")
 
 # Create the timer and UI objects
-timer = Timer(INITIAL_COUNTDOWN)
-ui = UI(window, timer)
+timers = [Timer(timer_config['length'], timer_config['name']) for timer_config in TIMERS]
+ui = UI(window, timers)
 
 # Main loop
 running = True
@@ -30,7 +30,7 @@ while running:
             ui.window = window
             ui.update_button_positions()
 
-    timer.update()
+    ui.timers[ui.current_timer_index].update()
     ui.update()
     pygame.display.flip()
     clock.tick(60)
