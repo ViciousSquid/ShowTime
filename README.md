@@ -37,6 +37,8 @@ Otherwise, Execute ShowTime.py with python (prerequisite of pygame 1.9.6+ is req
 
 --
 
+NEW in version 1.03 is the ability to add multiple timers via JSON settings file (move through screens with < and > buttons)
+
 Timer turns YELLOW when there are only 5 minutes remaining
 
 Timer turns RED and continues counting up when time has expired
@@ -44,7 +46,7 @@ Timer turns RED and continues counting up when time has expired
 --
 
 
-Clicking the small button in the top left labelled 'Remote' will start/stop a web server at localhost:8000
+Clicking the small button in the top left labelled 'Remote' will start/stop a web server at localhost:8000 which will display the main timer
 
 ![image](https://github.com/ViciousSquid/ShowTime/assets/161540961/453289ea-edec-48a1-b6fa-597e818fd6e1)
 
