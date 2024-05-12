@@ -1,0 +1,20 @@
+{
+  "timers": [
+    {
+      "name": "Act One",
+      "length": 900
+    },
+    {
+      "name": "Act Two",
+      "length": 900
+    },
+    {
+      "name": "Act Three",
+      "length": 900
+    },
+    {
+      "name": "Act Four",
+      "length": 900
+    }
+  ]
+}
