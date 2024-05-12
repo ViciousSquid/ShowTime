@@ -19,6 +19,10 @@ ShowTime will help guilt-trip your live performers into finishing ON TIME!
 * When 5 minutes remain, timer turns yellow
 * When time expires, counter turns red and starts counting up
 
+
+* Supports up to four timers (named "Act one" to "act four")
+* Names and default timers can be set using `config.json` in the `data` folder
+
 ## Usage
 
 There is a **Windows EXE** in releases:
