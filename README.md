@@ -1,6 +1,7 @@
 # ShowTime
 
 A useful tool for audio engineers/stage managers.
+
 Time management for live performance slots. 
 
 (or if you just need to monitor a timer over a LAN)
@@ -28,7 +29,7 @@ ShowTime will help guilt-trip your live performers into finishing ON TIME!
 There is a **Windows EXE** in releases:
 [https://github.com/ViciousSquid/ShowTime/releases]
 
-Otherwise, Execute ShowTime.py with python (prerequisite of pygame 1.9.6+ is required)
+Otherwise, Execute ShowTime.py with python (pygame 1.9.6+ is required)
 
 ![image](https://github.com/ViciousSquid/ShowTime/assets/161540961/ee8c41b8-c282-4c12-b866-5e643f775301) - to Start and stop the countdown
 
