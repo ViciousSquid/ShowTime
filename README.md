@@ -1,5 +1,5 @@
 # ShowTime
-
+#### aka the passive aggressive timer
 
 Time management for live performance slots. 
 
@@ -15,5 +15,5 @@ ShowTime will help guilt-trip your live performers into finishing ON TIME!
 * Nice big fonts
 * Set timers in 15 minute intervals
 * When 5 minutes remain, timer turns yellow
-* When time expires, counter turns red and starts counting up (passsive aggressive)
+* When time expires, counter turns red and starts counting up
 
