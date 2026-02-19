@@ -1,7 +1,7 @@
 # ShowTime
 #### aka the passive aggressive timer
 
-Time management for live performance slots. 
+Time management for live performance slots. PUT IT ON THE STAGE
 
 (or if you just need a really big clear readable timer!)
 
