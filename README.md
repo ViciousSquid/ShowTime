@@ -16,4 +16,4 @@ ShowTime will help guilt-trip your live performers into finishing ON TIME!
 * Set timers in 15 minute intervals
 * When 5 minutes remain, timer turns yellow
 * When time expires, counter turns red and starts counting up
-
+* Multiple instances can sync over LAN
